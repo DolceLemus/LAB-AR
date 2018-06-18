@@ -160,13 +160,13 @@
 
 /* logo de contac us */
 
-.logo-up{
+.logo-up {
     float: left;
-        background-color: #2B2B2B;
-        height: 6em;
-        width: 100%;
-        padding-top: 3em;
-        padding-left: 1em;
+    background-color: #2B2B2B;
+    height: 6em;
+    width: 100%;
+    padding-top: 3em;
+    padding-left: 1em;
 }
 
 /* information contact us */
@@ -181,46 +181,106 @@
     padding-bottom: 2em;
 }
 
-.list-icons{
+.list-icons {
     position: absolute;
     bottom: 0;
 }
+
 .icon {
     list-style: none;
     display: inline-block;
     color: white;
+    font-size: .8em;
 }
 
-.list-site{
+.list-site {
     list-style: none;
 }
 
-.text-list{
+.text-list {
     color: white;
 }
-.text-list:hover{
+
+.text-list:hover {
     color: #F7B617;
 }
-.intern{
+
+.intern {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
 
-.img-store{
+.img-store {
     width: 100%;
-}
-.one{
-    padding-top: 150%;
+    height: 12%;
 }
 
 /* footer */
-footer{
+
+footer {
     float: left;
     background-color: #2B2B2B;
     height: 3em;
 }
-.footer{
+
+.footer {
     color: white;
     margin: 0;
     margin-left: 5em;
+}
+
+/* @media 768px */
+
+@media (max-width: 576px) {
+/* taxi */
+    #taxi {
+        height: 30em;
+    }
+    #cont-card-taxi {
+        display: none;
+    }
+    #cont-card-taxi-mobile {
+        padding-top: 10em;
+        display: block;
+        width: 100%;
+        padding-left: 2em;
+    }
+    .card-taxi-mobile {
+        border-radius: 0;
+        background-color: #F7B617;
+        border: none;
+        color: white;
+        float: right;
+    }
+    .logo-blanco-mobile {
+        height: 1.2em;
+    }
+    .btn-primary {
+        background-color: white;
+        color: black;
+        border: none;
+    }
+    .btn-primary:hover {
+        background-color: black;
+        color: white;
+    }
+/* download */
+
+    .text-phone{
+        display: none;
+    }
+    .text-phone-mobile{
+        display: block;
+        height: 3em;
+        float: left;
+        color: white;
+    }
+    .border-cont-phone {
+        border: 1px solid white;
+        height: 90%;
+        width: 100%;
+    }
+    #cont-download{
+        padding: 1em;
+    }
 }
