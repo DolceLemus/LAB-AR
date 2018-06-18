@@ -229,7 +229,20 @@ footer {
     margin-left: 5em;
 }
 
-/* @media 768px */
+@media (min-width: 576px) {
+    #cont-card-taxi-mobile {
+        display: none;
+    }
+    .text-phone-mobile {
+        display: none;
+    }
+    #cont-contact-mobile{
+        display: none;
+    }
+}
+
+
+/* max @media 576px */
 
 @media (max-width: 576px) {
     /* taxi */
@@ -260,7 +273,6 @@ footer {
         color: black;
         border: none;
         width: 10em;
-        ;
         height: 3em;
         weight: bold;
         margin-left: 4em;
@@ -289,7 +301,7 @@ footer {
         padding: 1em;
     }
     /* driver */
-    .btn-primary-driver {
+    .driver-btn {
         background-color: #F7B617;
         color: white;
         border: none;
@@ -353,7 +365,6 @@ footer {
         float: left;
         width: 46%;
     }
-
-    .img-store{
+    .img-store {
         padding-top: 1em;
     }
