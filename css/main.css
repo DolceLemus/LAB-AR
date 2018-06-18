@@ -1,1 +1,113 @@
-/* Los estilos de tu proyecto */
+/* navbar */
+
+.navbar-expand-lg {
+    height: 6em;
+}
+
+#navbarNavDropdown {
+    padding-left: 50vw;
+}
+
+/* hero */
+
+#taxi {
+    background-image: url(../assets/images/taxi.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: none;
+    height: 120vh;
+    width: 100%;
+}
+
+#cont-card-taxi {
+    padding-top: 10em;
+    float: right;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.card {
+    border-radius: 0;
+    background-color: #F7B617;
+    border: none;
+    color: white;
+}
+
+.logo-blanco {
+    height: 1.2em;
+}
+
+.btn-primary {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color: white;
+}
+
+#o-bien {
+    text-align: center;
+}
+
+/* download the app */
+
+#cont-download {
+    background-color: #F7B617;
+    height: 80vh;
+    float: left;
+    margin-left: 0em;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.border-cont-phone {
+    border: 1px solid white;
+}
+
+.text-phone {
+    float: left;
+}
+
+.text-phone {
+    color: white;
+    padding-top: 4em;
+}
+
+#phone-picture {
+    height: 100%;
+    float: left;
+}
+
+/* conduce cuando quieras */
+
+#cont-driver {
+    background-image: url(../assets/images/conduce.jpg);
+    background-size: cover;
+    height: 100vh;
+
+        float: left;
+        margin-left: 0em;
+        width: 100%;
+        padding-top: 2em;
+        padding-bottom: 2em;
+
+
+}
+
+/* #cont-card-driver {
+    float: right;
+} */
+
+#card-driver {
+    border-radius: 0;
+    background-color: rgb(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+}
