@@ -232,9 +232,9 @@ footer {
 /* @media 768px */
 
 @media (max-width: 576px) {
-/* taxi */
+    /* taxi */
     #taxi {
-        height: 30em;
+        height: 35em;
     }
     #cont-card-taxi {
         display: none;
@@ -255,21 +255,26 @@ footer {
     .logo-blanco-mobile {
         height: 1.2em;
     }
-    .btn-primary {
+    .btn-primary-taxi {
         background-color: white;
         color: black;
         border: none;
+        width: 10em;
+        ;
+        height: 3em;
+        weight: bold;
+        margin-left: 4em;
+        font-size: 1.3em;
     }
     .btn-primary:hover {
         background-color: black;
         color: white;
     }
-/* download */
-
-    .text-phone{
+    /* download */
+    .text-phone {
         display: none;
     }
-    .text-phone-mobile{
+    .text-phone-mobile {
         display: block;
         height: 3em;
         float: left;
@@ -280,7 +285,75 @@ footer {
         height: 90%;
         width: 100%;
     }
-    #cont-download{
+    #cont-download {
         padding: 1em;
     }
-}
+    /* driver */
+    .btn-primary-driver {
+        background-color: #F7B617;
+        color: white;
+        border: none;
+        width: 16em;
+        weight: bolder;
+        font-size: 1.3em;
+        height: 2.4em;
+    }
+    #card-driver {
+        padding-top: 4em;
+        height: 100%;
+    }
+    .card-title-driver, .card-text-driver {
+        font-size: 1.6em;
+    }
+    .input-cont {
+        width: 80%;
+        float: left;
+    }
+    .col-form-label {
+        width: 10%;
+        float: left;
+    }
+    #btn-trazar {
+        width: 50%;
+        font-size: 1.3em;
+    }
+    #cont-rate {
+        height: 50em;
+    }
+    #cont-form {
+        height: 20em;
+    }
+    .cont-map {
+        margin-left: 1em;
+    }
+    /* footer */
+    .logo-up {
+        float: left;
+    }
+    .list-icons {
+        position: static;
+    }
+    #cont-contact {
+        display: none;
+    }
+    #cont-contact-mobile {
+        display: block;
+        float: left;
+        background-color: #2B2B2B;
+        width: 100%;
+        margin: 0;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    .intern-mobile {
+        float: left;
+        width: 46%;
+    }
+    .intern-mobile-images {
+        float: left;
+        width: 46%;
+    }
+
+    .img-store{
+        padding-top: 1em;
+    }
