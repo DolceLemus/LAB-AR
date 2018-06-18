@@ -1,7 +1,18 @@
+.jumbotron {
+    margin-bottom: 0;
+    padding: 0;
+}
+
 /* navbar */
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
 
 .navbar-expand-lg {
     height: 6em;
+    margin: 0;
 }
 
 #navbarNavDropdown {
@@ -15,25 +26,22 @@
     background-size: cover;
     background-position: bottom;
     background-repeat: none;
-    height: 120vh;
+    height: 45em;
     width: 100%;
+    margin: 0;
 }
 
 #cont-card-taxi {
+    width: 100%;
     padding-top: 10em;
-    float: right;
 }
 
-.jumbotron {
-    margin-bottom: 0;
-    padding: 0;
-}
-
-.card {
+.card-taxi {
     border-radius: 0;
     background-color: #F7B617;
     border: none;
     color: white;
+    float: right;
 }
 
 .logo-blanco {
@@ -91,14 +99,11 @@
     background-image: url(../assets/images/conduce.jpg);
     background-size: cover;
     height: 100vh;
-
-        float: left;
-        margin-left: 0em;
-        width: 100%;
-        padding-top: 2em;
-        padding-bottom: 2em;
-
-
+    float: left;
+    margin-left: 0em;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 /* #cont-card-driver {
