@@ -117,3 +117,38 @@
     color: white;
     float: right;
 }
+
+/* tarifas */
+
+#cont-rate {
+    background-color: #F7B617;
+    height: 80vh;
+    float: left;
+    margin-left: 0em;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#cont-form{
+    padding-top: 3em;
+}
+
+.form-control{
+    background-color:  #F7B617;
+    border: 1px solid white;
+}
+
+.form-group{
+    text-align: center;
+}
+
+.map-google{
+    width: 100%;
+    height: 100%;
+}
+.cont-map{
+    padding: 1em;
+    border: 1px solid white;
+    margin-right: 1em;
+}

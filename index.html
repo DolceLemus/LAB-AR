@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>LAB-
@@ -88,15 +89,32 @@
     </section>
     <!-- tarifas -->
     <section class="container-fluid">
-        <div class="jumbotron jumbotron-fluid" id="cont-download">
-            <div class="border-cont-phone col-md-10">
-                <img src="assets/images/iPhone6Plus.png" alt="Phone" class="col-sm-12 col-md-5" id="phone-picture">
-                <div class="text-phone col-md-5">
-                    <h3>Descarga la nueva app</h3>
-                    <p>La versión actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-                    <br>
-                    <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a donde ir.</p>
+        <div class="row" id="cont-rate">
+            <form class="col-md-6" id="cont-form">
+                <h2>Tarifas</h2>
+                <p>Consulta las tarifas LabCar aquí</p>
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label"> <i class="fas fa-location-arrow"></i> </label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Ingrese su punto de partida">
+                    </div>
                 </div>
+                <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label"><i class="far fa-dot-circle"></i></label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputPassword3" placeholder="Ingrese su destino">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="form-group row">
+                    <div class="col-sm-9">
+                        <button type="submit" class="btn btn-primary col-md-5" id="btn-trazar">¡Trazar ruta!</button>
+                    </div>
+                </div>
+            </form>
+            <div class="cont-map col-md-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d63922420.74555176!2d-92.44012543016595!3d-12.076859110531624!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ses!4v1529338282323" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="map-google"></iframe>
             </div>
         </div>
     </section>
