@@ -1,3 +1,8 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 .jumbotron {
     margin-bottom: 0;
     padding: 0;
@@ -236,11 +241,10 @@ footer {
     .text-phone-mobile {
         display: none;
     }
-    #cont-contact-mobile{
+    #cont-contact-mobile {
         display: none;
     }
 }
-
 
 /* max @media 576px */
 
@@ -275,7 +279,7 @@ footer {
         width: 10em;
         height: 3em;
         weight: bold;
-        margin-left: 4em;
+        margin-left: 2sem;
         font-size: 1.3em;
     }
     .btn-primary:hover {
@@ -317,6 +321,10 @@ footer {
     .card-title-driver, .card-text-driver {
         font-size: 1.6em;
     }
+    #btn-primary-register {
+        width: 100%;
+    }
+    /* tarifas */
     .input-cont {
         width: 80%;
         float: left;
@@ -368,3 +376,8 @@ footer {
     .img-store {
         padding-top: 1em;
     }
+    .footer{
+        padding: 0;
+        width: 75%;
+    }
+}
