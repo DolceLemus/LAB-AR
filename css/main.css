@@ -24,6 +24,20 @@ ul{
     padding-left: 50vw;
 }
 
+/* navbar/modal */
+.perfil{
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+    background-image: url(../assets/images/perfil.png);
+    background-size: cover;
+    margin-left: 38%;
+}
+.dropdown-menu{
+height: 10em;
+}
+
+
 /* hero */
 
 #taxi {
